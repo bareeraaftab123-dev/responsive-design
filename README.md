@@ -1,25 +1,5 @@
 # 🎨 CreativeHub - Responsive Design
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=vercel)](https://creativehub.vercel.app)
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/bareeraaftab123-dev/creativehub)
-
-A responsive web page built with **HTML**, **CSS**, and **JavaScript** — featuring desktop, tablet, and mobile layouts with modern UI/UX design.
-
----
-
-## 📋 Table of Contents
-
-- [Overview](#-overview)
-- [Features](#-features)
-- [Project Structure](#-project-structure)
-- [Technologies Used](#-technologies-used)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Responsive Breakpoints](#-responsive-breakpoints)
-- [Live Demo](#-live-demo)
-- [Author](#-author)
-
----
 
 ## 🎯 Overview
 
