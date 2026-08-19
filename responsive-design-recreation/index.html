@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Week 2 · Responsive Design Recreation</title>
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="bg-animation">
+    <div class="bg-circle c1"></div>
+    <div class="bg-circle c2"></div>
+    <div class="bg-circle c3"></div>
+    <div class="bg-circle c4"></div>
+  </div>
+
+  <div class="container">
+    <!-- ===== NAVIGATION ===== -->
+    <nav class="navbar">
+      <div class="logo">
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="12" height="12" rx="3" fill="#8B5CF6"/>
+          <rect x="18" y="2" width="12" height="12" rx="3" fill="#EC4899"/>
+          <rect x="2" y="18" width="12" height="12" rx="3" fill="#F59E0B"/>
+          <rect x="18" y="18" width="12" height="12" rx="3" fill="#10B981"/>
+        </svg>
+        <span>creative<span>hub</span></span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn-outline"><i class="fas fa-user"></i> Sign In</a>
+        <a href="#" class="btn-primary">Get Started <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Week 2 · Responsive Design
+        </div>
+        <h1>Build <span>responsive</span> experiences that <span>scale</span></h1>
+        <p>Master CSS Grid & Flexbox with a modern, accessible design system. Desktop, tablet, and mobile — all in one.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn-primary btn-large">
+            <i class="fas fa-rocket"></i> Explore Demo
+          </a>
+          <a href="#" class="btn-outline btn-large">
+            <i class="fas fa-github"></i> View Code
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Responsive</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">4.8</span>
+            <span class="stat-label">⭐ Accessibility</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Breakpoints</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card">
+          <div class="hero-card-preview">
+            <div class="preview-bar"></div>
+            <div class="preview-grid">
+              <div class="preview-item"></div>
+              <div class="preview-item"></div>
+              <div class="preview-item"></div>
+              <div class="preview-item"></div>
+            </div>
+          </div>
+          <div class="hero-card-tag">
+            <i class="fas fa-code"></i> Grid + Flexbox
+          </div>
+        </div>
+        <div class="floating-badge b1">
+          <i class="fas fa-mobile-alt"></i>
+          <span>Mobile First</span>
+        </div>
+        <div class="floating-badge b2">
+          <i class="fas fa-universal-access"></i>
+          <span>Accessible</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REFERENCE SECTION ===== -->
+    <section class="reference">
+      <div class="section-header">
+        <span class="section-tag">📐 Design Reference</span>
+        <h2>From concept to <span>reality</span></h2>
+        <p>Self-selected reference design compared with my enhanced recreation.</p>
+      </div>
+      <div class="reference-grid">
+        <div class="reference-card">
+          <div class="reference-badge original">Original Reference</div>
+          <div class="reference-image">
+            <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=600&h=400&fit=crop&crop=center" alt="Original design reference" />
+            <div class="reference-overlay">
+              <span>📋 Reference Design</span>
+            </div>
+          </div>
+          <div class="reference-meta">
+            <span><i class="fas fa-palette"></i> Minimalist</span>
+            <span><i class="fas fa-layer-group"></i> 3-column</span>
+          </div>
+        </div>
+        <div class="reference-card highlight">
+          <div class="reference-badge recreation">✨ My Recreation</div>
+          <div class="reference-image">
+            <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&h=400&fit=crop&crop=center" alt="Enhanced recreation" />
+            <div class="reference-overlay">
+              <span>🚀 Enhanced Version</span>
+            </div>
+          </div>
+          <div class="reference-meta">
+            <span><i class="fas fa-gradient"></i> Vibrant</span>
+            <span><i class="fas fa-star"></i> Enhanced UX</span>
+          </div>
+        </div>
+      </div>
+      <div class="reference-links">
+        <a href="#" class="ref-link"><i class="fas fa-image"></i> View Reference</a>
+        <a href="#" class="ref-link"><i class="fab fa-figma"></i> Figma Design</a>
+        <a href="#" class="ref-link"><i class="fas fa-palette"></i> Color Palette</a>
+      </div>
+    </section>
+
+    <!-- ===== CARDS GRID ===== -->
+    <section class="cards-section">
+      <div class="section-header">
+        <span class="section-tag">🚀 Core Concepts</span>
+        <h2>Mastering <span>responsive</span> layouts</h2>
+        <p>Three pillars of modern responsive design — each with real-world examples.</p>
+      </div>
+      <div class="cards-grid">
+        <!-- Card 1: CSS Grid -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=350&fit=crop&crop=center" alt="CSS Grid" />
+            <div class="card-image-overlay">
+              <span class="card-tag">CSS Grid</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon purple">
+              <i class="fas fa-th"></i>
+            </div>
+            <h3>CSS Grid</h3>
+            <p>Two-dimensional layout system for complex, responsive grid structures. Perfect for magazine-style layouts.</p>
+            <div class="card-tech">
+              <span>Grid-template</span>
+              <span>Auto-fit</span>
+              <span>Minmax</span>
+            </div>
+            <a href="#" class="card-link">
+              Explore Grid
+              <i class="fas fa-arrow-right"></i>
+              <span class="link-ripple"></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 2: Flexbox -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&h=350&fit=crop&crop=center" alt="Flexbox" />
+            <div class="card-image-overlay">
+              <span class="card-tag">Flexbox</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon pink">
+              <i class="fas fa-arrows-alt-h"></i>
+            </div>
+            <h3>Flexbox</h3>
+            <p>One-dimensional layout module for alignment, distribution, and ordering of items in a container.</p>
+            <div class="card-tech">
+              <span>Flex-wrap</span>
+              <span>Justify</span>
+              <span>Align</span>
+            </div>
+            <a href="#" class="card-link">
+              Explore Flexbox
+              <i class="fas fa-arrow-right"></i>
+              <span class="link-ripple"></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Card 3: Responsive Images -->
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&h=350&fit=crop&crop=center" alt="Responsive Images" />
+            <div class="card-image-overlay">
+              <span class="card-tag">Images</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-icon green">
+              <i class="fas fa-image"></i>
+            </div>
+            <h3>Responsive Images</h3>
+            <p>Optimized images that adapt to any screen using aspect-ratio and object-fit techniques.</p>
+            <div class="card-tech">
+              <span>Aspect-ratio</span>
+              <span>Object-fit</span>
+              <span>Lazy-load</span>
+            </div>
+            <a href="#" class="card-link">
+              Explore Images
+              <i class="fas fa-arrow-right"></i>
+              <span class="link-ripple"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FORM SECTION ===== -->
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form-header">
+          <span class="section-tag">✉️ Get In Touch</span>
+          <h2>Let's create something <span>amazing</span> together</h2>
+          <p>Have a project in mind? Reach out and let's make it happen.</p>
+        </div>
+        <form class="form">
+          <div class="form-row">
+            <div class="form-group">
+              <label><i class="fas fa-user"></i> Full Name</label>
+              <input type="text" placeholder="Jane Doe" required />
+              <span class="input-focus"></span>
+            </div>
+            <div class="form-group">
+              <label><i class="fas fa-envelope"></i> Email</label>
+              <input type="email" placeholder="jane@example.com" required />
+              <span class="input-focus"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label><i class="fas fa-comment"></i> Message</label>
+            <textarea rows="4" placeholder="Tell me about your project..."></textarea>
+            <span class="input-focus"></span>
+          </div>
+          <button type="submit" class="btn-primary btn-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+      <div class="form-stats">
+        <div class="form-stat">
+          <div class="form-stat-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div>
+            <h4>Fast Response</h4>
+            <span>Within 24 hours</span>
+          </div>
+        </div>
+        <div class="form-stat">
+          <div class="form-stat-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <div>
+            <h4>Quality Work</h4>
+            <span>100% satisfaction</span>
+          </div>
+        </div>
+        <div class="form-stat">
+          <div class="form-stat-icon">
+            <i class="fas fa-heart"></i>
+          </div>
+          <div>
+            <h4>Passionate</h4>
+            <span>Love what we do</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DIFFERENCE LOG ===== -->
+    <section class="diff-section">
+      <div class="diff-container">
+        <div class="diff-header">
+          <i class="fas fa-clipboard-list"></i>
+          <div>
+            <h3>Difference Log</h3>
+            <p>Compared to the original reference design</p>
+          </div>
+        </div>
+        <div class="diff-grid">
+          <div class="diff-item">
+            <i class="fas fa-palette"></i>
+            <span>Vibrant color palette with gradients</span>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-layer-group"></i>
+            <span>Enhanced card design with images</span>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-arrow-right"></i>
+            <span>Animated interactions & hover effects</span>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-star"></i>
+            <span>Modern glass-morphism UI elements</span>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-universal-access"></i>
+            <span>Accessible focus states & keyboard nav</span>
+          </div>
+          <div class="diff-item">
+            <i class="fas fa-image"></i>
+            <span>High-quality Unsplash imagery</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESPONSIVE SCREENSHOTS ===== -->
+    <section class="screenshots">
+      <div class="section-header">
+        <span class="section-tag">📱 Device Preview</span>
+        <h2>Responsive at <span>every</span> size</h2>
+      </div>
+      <div class="screenshot-grid">
+        <div class="screenshot-card">
+          <div class="screenshot-icon desktop">
+            <i class="fas fa-desktop"></i>
+          </div>
+          <h4>Desktop</h4>
+          <span>1280px+</span>
+          <div class="screenshot-preview">
+            <div class="preview-screen desktop-preview">
+              <div class="preview-nav"></div>
+              <div class="preview-hero"></div>
+              <div class="preview-cards"></div>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot-card">
+          <div class="screenshot-icon tablet">
+            <i class="fas fa-tablet-alt"></i>
+          </div>
+          <h4>Tablet</h4>
+          <span>768px</span>
+          <div class="screenshot-preview">
+            <div class="preview-screen tablet-preview">
+              <div class="preview-nav"></div>
+              <div class="preview-hero"></div>
+              <div class="preview-cards"></div>
+            </div>
+          </div>
+        </div>
+        <div class="screenshot-card">
+          <div class="screenshot-icon mobile">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h4>Mobile</h4>
+          <span>375px</span>
+          <div class="screenshot-preview">
+            <div class="preview-screen mobile-preview">
+              <div class="preview-nav"></div>
+              <div class="preview-hero"></div>
+              <div class="preview-cards"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <div class="logo">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="12" height="12" rx="3" fill="#8B5CF6"/>
+              <rect x="18" y="2" width="12" height="12" rx="3" fill="#EC4899"/>
+              <rect x="2" y="18" width="12" height="12" rx="3" fill="#F59E0B"/>
+              <rect x="18" y="18" width="12" height="12" rx="3" fill="#10B981"/>
+            </svg>
+            <span>creative<span>hub</span></span>
+          </div>
+          <p>Building responsive, accessible web experiences with modern CSS.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+            <a href="#"><i class="fab fa-figma"></i></a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="#">Documentation</a>
+            <a href="#">Tutorials</a>
+            <a href="#">Examples</a>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Blog</a>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Cookie Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>
+          <i class="fas fa-check-circle"></i>
+          No breakage · Focus states · Preserve aspect ratio
+        </span>
+        <span>© 2024 Week 2 · Responsive Design Recreation</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
